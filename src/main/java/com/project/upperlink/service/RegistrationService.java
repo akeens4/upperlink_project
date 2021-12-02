@@ -37,6 +37,14 @@ public class RegistrationService {
                         request.getEmail(),
                         request.getPassword(),
                         request.getPhoneNumber(),
+                        request.getResume_name(),
+                        request.getResume_size(),
+                        request.getResume_content(),
+                        request.getResume_uploadTime(),
+                        request.getPassport_name(),
+                        request.getPassport_size(),
+                        request.getPassport_content(),
+                        request.getPassport_uploadTime(),
                         UpperlinkUserRole.USER
 
                 )
